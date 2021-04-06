@@ -14,7 +14,7 @@ namespace DenialEncryption
         {
             InitializeComponent();
             textBox1.Text = message;
-            textBox1.Enabled = false;
+            textBox1.ReadOnly = false;
 
         }
     }
